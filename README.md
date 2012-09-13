@@ -1,0 +1,1 @@
+synchronous work around for same origin policy

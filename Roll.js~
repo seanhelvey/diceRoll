@@ -1,0 +1,14 @@
+function httpRequest(){
+
+    $("div").html("hi");
+    var isLoggedIn;
+    $.ajax({
+	url: "http://theblogfrog.com/utils/roll.aspx",
+        async: false,
+	success: function(jsonData) {
+	    isLoggedIn = jsonData["roll"];
+	}
+    });
+
+
+}
